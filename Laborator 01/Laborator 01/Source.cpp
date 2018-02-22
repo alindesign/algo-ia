@@ -89,7 +89,10 @@ void removeValueFromList(int * numbers, int * length, int x) {
 }
 
 void main() {
-	/* 1. Se da o lista de numere. Sa se calculeze suma acestora. */	int * elements = allocList(1), searchElement;	printf("Numar de elemente: ");
+	/* 1. Se da o lista de numere. Sa se calculeze suma acestora. */
+	int * elements = allocList(1), searchElement;
+	
+	printf("Numar de elemente: ");
 	scanf_s("%d", elements);
 
 	int * numbers = allocList(* elements);
